@@ -1,0 +1,8 @@
+*.class
+*.iml
+.project
+.classpath
+.settings
+.idea
+*.zip
+*.tar.gz
