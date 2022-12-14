@@ -34,7 +34,7 @@ public class MeCabKoStandardTokenizerFactory extends MeCabKoTokenizerFactoryBase
                                          Environment environment,
                                          String name,
                                          Settings settings) {
-    super(indexSettings, environment, name, settings);
+    super(indexSettings, environment, settings, name);
   }
 
   @Override

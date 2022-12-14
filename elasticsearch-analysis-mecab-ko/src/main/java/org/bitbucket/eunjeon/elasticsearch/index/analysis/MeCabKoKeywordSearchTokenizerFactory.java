@@ -34,7 +34,7 @@ public class MeCabKoKeywordSearchTokenizerFactory extends MeCabKoTokenizerFactor
                                               Environment environment,
                                               String name,
                                               Settings settings) {
-    super(indexSettings, environment, name, settings);
+    super(indexSettings, environment, settings, name);
   }
 
   protected void setDefaultOption() {

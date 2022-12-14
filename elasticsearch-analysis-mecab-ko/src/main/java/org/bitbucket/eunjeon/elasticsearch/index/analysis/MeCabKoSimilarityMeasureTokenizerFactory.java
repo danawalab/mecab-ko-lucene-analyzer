@@ -31,8 +31,9 @@ import org.elasticsearch.index.IndexSettings;
 public class MeCabKoSimilarityMeasureTokenizerFactory extends MeCabKoTokenizerFactoryBase {
   public MeCabKoSimilarityMeasureTokenizerFactory(IndexSettings indexSettings,
                                                   Environment environment,
-                                                  Settings settings,
-                                                  String name) {
+                                                  String name,
+                                                  Settings settings
+                                                  ) {
     super(indexSettings, environment, settings, name);
   }
 
