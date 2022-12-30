@@ -32,10 +32,6 @@ public final class MeCabLoader {
       try {
         System.loadLibrary("MeCab");
       } catch (UnsatisfiedLinkError e) {
-//        System.err.println(
-//                "Cannot load the native code.\n"
-//                        + "Make sure your LD_LIBRARY_PATH contains MeCab.so path.\n" + e);
-//        System.exit(1);
         throw new UnsatisfiedLinkError(
             "Cannot load the native code.\n"
                 + "Make sure your LD_LIBRARY_PATH contains MeCab.so path.\n" + e);
